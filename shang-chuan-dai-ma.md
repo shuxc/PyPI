@@ -62,7 +62,7 @@ twine upload dist/*
 >
 > ![](/assets/Screen Shot 2018-02-27 at 11.22.06.png)
 
-## 5.登陆官查看上传的代码模块
+## 5.登陆官查看上传的模块
 
 ![](/assets/Screen Shot 2018-02-27 at 11.32.22.png)
 
