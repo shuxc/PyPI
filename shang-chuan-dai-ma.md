@@ -4,13 +4,13 @@
 
 ## 1.准备工作
 
-安装twine，后续操作将通过twine上传代码模块
+安装twine，后续操作将通过twine上传模块
 
 ```
 pip install twine
 ```
 
-编写编写代码模块，新建shuxcTestPyPI.py测试文件，准备将此代码上传至PyPI
+编写代码模块，新建shuxcTestPyPI.py测试文件，准备将此代码上传至PyPI
 
 ```
 def printPyPI():
@@ -50,7 +50,7 @@ Python setup.py sdist
 
 在文件目录下出现一个dist文件夹以及MANIFEST文件，截图如下：![](/assets/Screen Shot 2018-02-27 at 11.18.59.png)
 
-## 4.使用twine 上传代码模块
+## 4.使用twine 上传模块
 
 ```
 twine upload dist/*
@@ -65,6 +65,4 @@ twine upload dist/*
 ## 5.登陆官查看上传的代码模块
 
 ![](/assets/Screen Shot 2018-02-27 at 11.32.22.png)
-
-
 
